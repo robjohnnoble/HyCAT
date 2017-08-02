@@ -15,3 +15,5 @@ Requires: properly formatted configuration file (.cfg)
 Output: data files and png images
 
 Citation: In citations, please include doi.org/10.5281/zenodo.838190
+
+<a href="https://zenodo.org/badge/latestdoi/99115566"><img src="https://zenodo.org/badge/99115566.svg" alt="DOI"></a>

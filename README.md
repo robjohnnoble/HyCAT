@@ -13,3 +13,5 @@ Requires: gnuplot and libconfig
 Requires: properly formatted configuration file (.cfg)
 
 Output: data files and png images
+
+Citation: In citations, please include doi.org/10.5281/zenodo.838190

@@ -2,12 +2,14 @@
 
 shopt -s extglob
 
-for conc in 0 5 10 20 50 # seeds
+mkdir "Results"
+
+for conc in 0 5 10 20 50 # drug concentrations
 	do
-for i in {100..999} # seeds
+for i in {1..3} # seeds
 	do
 
-	outputdir="output_paper4_conc${conc}_seed${i}_withgrids"
+	outputdir="output_conc${conc}_seed${i}"
 	subdir_type="animation_frames_type"
 	subdir_birth="animation_frames_birth"
 	subdir_birth_type1="animation_frames_birth_type0"
